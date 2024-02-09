@@ -71,7 +71,7 @@ public class Task1 {
 		checkBox.isDisplayed();
 		System.out.println(checkBox.isDisplayed());
 		
-		//isDisplayed
+		
 		
 		//close
 		driver.close();
