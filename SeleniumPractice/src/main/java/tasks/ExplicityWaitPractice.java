@@ -37,6 +37,7 @@ public class ExplicityWaitPractice {
 		driver.navigate().refresh();
 
 
+
 		System.out.println("=============================== change text ================================================");
 
 		//change Text
@@ -56,6 +57,7 @@ public class ExplicityWaitPractice {
 
 		driver.navigate().refresh();
 
+
 		System.out.println("");
 		System.out.println("+++++++++++++++++++++++++++++++ displaybutton +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
@@ -71,6 +73,7 @@ public class ExplicityWaitPractice {
 		//System.out.println(buttonStatus.isEnabled());
 
 		driver.navigate().refresh();
+
 
 		System.out.println("");
 		System.out.println("=========================== enable button ====================================================");
@@ -88,6 +91,8 @@ public class ExplicityWaitPractice {
 
 
 		driver.navigate().refresh();
+
+
 		System.out.println("");
 		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% checkbox %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 		//checkBox
@@ -99,7 +104,6 @@ public class ExplicityWaitPractice {
 		wait.until(ExpectedConditions.elementToBeSelected(By.xpath("//input[@id='ch']")));
 		//checkBoxStatus.click();
 		System.out.println("after 10 seconds " +"'"+"Check check box link"+"'"+ " of checkbox status is :" +"'"+checkBoxStatus.isSelected()+"'");
-
 
 	}
 }
