@@ -28,7 +28,7 @@ public class ActionsUsing {
 
 		Actions action = new Actions(driver);
 		action.moveToElement(mouseOperationPerform).build().perform();
-		action.click();
+		mouseOperationPerform.click();
 		//action.doubleClick();
 		if (driver.getCurrentUrl().contains("https://www.amazon.in/ap/signin")) {
 			System.out.println("succesfully handeld mose hover operation of sig in page");
@@ -44,7 +44,7 @@ public class ActionsUsing {
 		WebElement dragToMeMyTarget =	driver.findElement(By.id("draggable"));
 		WebElement dropHere = driver.findElement(By.id("droppable"));
 		Actions action = new Actions(driver);
-		action.dragAndDrop(dragToMeMyTarget, dropHere);
+		action.dragAndDrop(dragToMeMyTarget, dropHere).build().perform();
 		System.out.println("111");  */
 	}
 
