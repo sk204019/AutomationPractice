@@ -19,7 +19,7 @@ public class ActionsUsing {
 	public static void main(String[] args) {
 
 		WebDriver driver = new ChromeDriver();
-		/*
+		
 		driver.get("https://www.amazon.in/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -36,7 +36,7 @@ public class ActionsUsing {
 			System.out.println("user failed to handle through mouse operation of sign in page");
 		}
 		driver.quit();
-		 */
+		 /*
 		driver.get("https://testautomationpractice.blogspot.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -45,7 +45,7 @@ public class ActionsUsing {
 		WebElement dropHere = driver.findElement(By.id("droppable"));
 		Actions action = new Actions(driver);
 		action.dragAndDrop(dragToMeMyTarget, dropHere);
-		System.out.println("111");
+		System.out.println("111");  */
 	}
 
 }
