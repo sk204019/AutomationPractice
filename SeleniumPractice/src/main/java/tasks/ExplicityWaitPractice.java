@@ -68,7 +68,7 @@ public class ExplicityWaitPractice {
 		displayButton.click();
 		System.out.println("after click operation perform button display status is :  " +"'"+buttonStatus.isDisplayed()+"'");
 		//System.out.println(buttonStatus.isEnabled());
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='hidden']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='nav-flyout-ya-signin']//span[@class='nav-action-inner'][normalize-space()='Sign in']")));
 		System.out.println("after 10 seconds button display status :  " +"'"+buttonStatus.isDisplayed()+"'");
 		//System.out.println(buttonStatus.isEnabled());
 
